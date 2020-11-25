@@ -9,36 +9,81 @@
     <title>Digital Ocean</title>
   </head>
   <body>
-    <nav class="navbar navbar-default my-navbar">
+    <nav class="navbar-default my-navbar">
       <div class="container">
         <div class="navbar-header">
-
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="img/logo.png">
-          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left my-navbar-left">
-            <li class=""><a href="#">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-            <li class=""><a href="#">Customers</a></li>
-            <li class=""><a href="#">Community <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-            <li class=""><a href="#">Pricing</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right my-navbar-right">
-            <li class=""><a href="#">Docs</a></li>
-            <li class=""><a href="#">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-            <li class=""><a href="#">Login</a></li>
-            <a class="btn btn-default navbar-btn" href="#">Sign Up</a>
-          </ul>          
+            <div class="row test">
+              <div class="col-md-5 col-md-offset-3  ">
+                <ul class="my-navbar-left">
+                  <li class=""><a href="#">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                  <li class=""><a href="#">Customers</a></li>
+                  <li class=""><a href="#">Community <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                  <li class=""><a href="#">Pricing</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="my-navbar-right">
+                  <li class=""><a href="#">Docs</a></li>
+                  <li class=""><a href="#">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                  <li class=""><a href="#">Login</a></li>
+                  <a class="btn btn-default navbar-btn" href="#">Sign Up</a>
+                </ul>
+              </div>
+            </div>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
     </nav>
+    <!--      end navbar     -->
+
+    <!--      jumbotron     -->
+    <div class="my-jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="content-jumbotron-left">
+              <h1>This simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="content-jumbotron-right">
+              <h2>Deploy your app in seconds.</h2>
+              <h2>Get started now.</h2>
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                  </div>
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
+
+<!--  nav navbar-nav navbar-right -->
