@@ -11,11 +11,11 @@
   <body>
     <nav class="my-navbar">
       <div class="container">
-          <div class="row test">
+          <div class="row">
             <div class=" hamburger-menu visible-xs-block visible-sm-block">
               <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-2 col-md-2">
               <img src="img/logo.png" alt="">
             </div>
             <div class="col-md-5 hidden-xs hidden-sm">
@@ -26,12 +26,12 @@
                 <li class=""><a href="#">Pricing</a></li>
               </ul>
             </div>
-            <div class="col-md-4 hidden-xs hidden-sm">
+            <div class="col-md-5 hidden-xs hidden-sm">
               <ul class="my-navbar-right">
                 <li class=""><a href="#">Docs</a></li>
                 <li class=""><a href="#">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                 <li class=""><a href="#">Login</a></li>
-                <a class="btn btn-default navbar-btn" href="#">Sign Up</a>
+                <a class=" sign-up" href="#">Sign Up</a>
               </ul>
             </div>
           </div>
@@ -40,38 +40,29 @@
     </nav>
     <!--      end navbar     -->
 
+  
+
     <!--      jumbotron     -->
     <div class="my-jumbotron">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
+        <div class="row content-jumbotron">
+          <div class="col-xs-12 col-sm-7">
             <div class="content-jumbotron-left">
               <h1>This simplest cloud platform for developers & teams</h1>
-              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-5">
             <div class="content-jumbotron-right">
               <h2>Deploy your app in seconds.</h2>
               <h2>Get started now.</h2>
-              <form class="form-horizontal">
-                <div class="form-group">
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-10">
-                    <button type="submit" class="btn btn-default">Sign in</button>
-                  </div>
-                  <div class="col-sm-10">
-                    <button type="submit" class="btn btn-default">Sign in</button>
-                  </div>
+              <form class="form-google" action="index.html" method="post">
+                <input type="email" name="email" placeholder="Email" value="">
+                <input type="password" name="password" placeholder="Password" value="">
+                <button type="button" name="button">Create your account</button>
+                <button type="button" name="button"><img src="img/google-logo.png" alt="google-logo">Sign up with google</button>
+                <div class="">
+                  <span>By signing up you agree to the <a href="#">Terms of Service</a> </span>
                 </div>
               </form>
             </div>
@@ -79,8 +70,10 @@
         </div>
       </div>
     </div>
+    <!--      end jumbotron     -->
+
 
   </body>
 </html>
 
-<!--  nav navbar-nav navbar-right -->
+<!--   -->

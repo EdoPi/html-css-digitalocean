@@ -1,8 +1,9 @@
+/* Navar*/
 .my-navbar {
   background-color: white;
-  min-height: 50px;
-  line-height: 50px;
-
+  height: 58px;
+  line-height: 58px;
+  text-align: right;
 }
 
 .hamburger-menu{
@@ -14,7 +15,7 @@
 
 .my-navbar img{
   width: 150px;
-  top: 50%;
+  margin-bottom: 6px;
 }
 
 .my-navbar .row ul>li {
@@ -26,12 +27,106 @@
   color: black;
 }
 
+.my-navbar .row .my-navbar-left li:last-child{
+  padding-right: 0px;
+}
 .my-navbar .navbar-brand:hover, .my-navbar .navbar-nav> a:hover {
   color: #1ABC9C;
 }
 
+.my-navbar .my-navbar-right > .sign-up{
+  background-color: white;
+  border: 1px solid #2177F4;
+  padding:10px;
+  border-radius: 5px;
+  color: #2177F4;
+}
+/* end navbar*/
 
+/* jumbotron*/
 .my-jumbotron{
   background-image:url("../img/sfondo.jpg");
-  height: 800px;
+  min-height: 600px;
 }
+
+.content-jumbotron-left{
+  margin-top: 50px;
+  padding-left: 15px;
+}
+
+.content-jumbotron-left h1{
+  color: white;
+  font-size: 60px;
+}
+
+.content-jumbotron-left p{
+  color: #AABFFA;
+  font-size: 25px;
+}
+
+.content-jumbotron-right{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  min-height: 350px;
+  padding: 40px 15px 30px;
+}
+
+.content-jumbotron-right h2:nth-child(2){
+  color:  #4E8DF8;
+}
+/* form*/
+
+.form-google input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.form-google input:nth-child(2){
+  margin: 15px 0;
+}
+.form-google button:nth-child(3){
+  background-color: #4E8DF8;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  border-style: none;
+}
+
+.form-google button:nth-child(4){
+  background-color: white;
+  width: 100%;
+  color: #575757;
+  border-radius: 5px;
+  height: 30px;
+  border-style: none;
+  vertical-align: middle;
+  box-shadow: 1px 1px #ccc;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-google div:nth-child(5){
+margin-top: 15px;
+}
+
+.form-google button > img{
+  width: 20px;
+  vertical-align: middle;
+}
+  /* end form*/
+
+  @media screen and (max-width:767px){
+
+    .content-jumbotron-left h1{
+      font-size: 40px;
+    }
+
+  }
