@@ -1,3 +1,25 @@
+/* utility class*/
+
+.description-color{
+  color: #455576;
+}
+.title-color{
+  color: #041942;
+}
+
+.my-box-title {
+  text-align: center;
+  margin: 50px 0 100px;
+}
+
+.my-box-title h2{
+font-size: 50px;
+}
+
+.my-box-title span{
+   font-size: 35px;
+}
+
 /* Navar*/
 .my-navbar {
   background-color: white;
@@ -123,6 +145,8 @@ margin-top: 15px;
 }
   /* end form*/
 
+
+  /*   customer  */
 .my-customer{
   background-color: #F1F3F8;
   text-align: center;
@@ -144,22 +168,50 @@ margin-top: 15px;
 .customers img:last-child{
   padding-right: 0;
 }
+/* end customer*/
+
+/* deploy*/
+
+.deploy-sidebar{
+  font-size: 25px;
+  border-left: 1px solid #455576;
+  padding-left: 15px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.deploy-sidebar div{
+  padding-top: 15px;
+}
+
+.deploy-container{
+  margin-top: 50px;
+  padding-right: 15px;
+}
 
 
-  @media screen and (max-width:767px){
 
-    .content-jumbotron-left h1{
-      font-size: 40px;
-    }
-
-    .customers img{
-      width:  300px;
-    }
+@media screen and (max-width:991px){
+  .customers img{
+    width:  100px;
   }
 
-  @media screen and (max-width:991px){
-    .customers img{
-      width:  100px;
-    }
+}
+
+@media screen and (max-width:767px){
+
+  .content-jumbotron-left h1{
+    font-size: 40px;
+  }
+  .content-jumbotron-right{
+    margin-bottom: 20px;
+  }
+  .customers img{
+    width:  300px;
+  }
+
+  .deploy-sidebar{
+    margin-left: 15px;
 
   }
+}
