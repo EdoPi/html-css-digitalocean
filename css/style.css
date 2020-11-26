@@ -9,7 +9,7 @@
 
 .my-box-title {
   text-align: center;
-  margin: 50px 0 100px;
+  margin: 50px 0 50px;
 }
 
 .my-box-title h2{
@@ -170,14 +170,16 @@ margin-top: 15px;
 }
 /* end customer*/
 
-/* deploy*/
 
+/* deploy*/
+.my-deploy{
+  padding-bottom: 50px;
+}
 .deploy-sidebar{
   font-size: 25px;
   border-left: 1px solid #455576;
   padding-left: 15px;
   margin-left: 50px;
-  margin-top: 40px;
 }
 
 .deploy-sidebar div{
@@ -185,17 +187,59 @@ margin-top: 15px;
 }
 
 .deploy-container{
-  margin-top: 50px;
   padding-right: 15px;
 }
+/* end deploy*/
 
 
+/* Designed*/
+.my-designed{
+  background-color: #F1F3F8;
+}
+
+.container-droplets{
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.container-droplets .fa-angle-left, .fa-angle-right{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-droplets img{
+  padding:0 30px;
+  width: 800px;
+}
+
+.image-title{
+  margin: 15px 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.check-circle{
+  font-size: 15px;
+  color: #2177F4;
+  margin-bottom: 50px;
+}
+.fa-circle{
+  display: none;
+}
+.fa-circle-thin:hover{
+  content
+}
+
+/* MEDIA QUERY*/
 
 @media screen and (max-width:991px){
   .customers img{
     width:  100px;
   }
-
+  .container-droplets img{
+    width: 600px;
+  }
 }
 
 @media screen and (max-width:767px){
@@ -212,6 +256,17 @@ margin-top: 15px;
 
   .deploy-sidebar{
     margin-left: 15px;
+  }
 
+  .deploy-container{
+    margin-top: 50px;
+  }
+
+  .container-droplets .fa-angle-left, .fa-angle-right{
+    display: none;
+  }
+
+  .container-droplets img{
+    width: 90%;
   }
 }
