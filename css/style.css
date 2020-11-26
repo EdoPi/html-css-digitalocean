@@ -13,11 +13,11 @@
 }
 
 .my-box-title h2{
-font-size: 50px;
+font-size: 40px;
 }
 
 .my-box-title span{
-   font-size: 35px;
+   font-size: 30px;
 }
 
 /* Navar*/
@@ -230,6 +230,33 @@ margin-top: 15px;
 .fa-circle-thin:hover{
   content
 }
+/* end designed*/
+
+/* features*/
+.my-features{
+  padding-bottom: 50px;
+}
+.features-box-link{
+  margin-top: 20px;
+}
+/* end features*/
+
+.my-service-region{
+  background-image: linear-gradient(#0439B6, #01148A);
+  color: white;
+}
+
+.my-service-region .my-country-row{
+  border-bottom: 1px solid white;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+.list-container{
+  padding-right: 30px;
+}
+
+
 
 /* MEDIA QUERY*/
 
