@@ -1,15 +1,24 @@
 .my-navbar {
   background-color: white;
-  height: 80px;
+  min-height: 50px;
+  line-height: 50px;
+
+}
+
+.hamburger-menu{
+  color: #2177F4;
+  float: right;
+  padding-right: 15px;
+  font-size: 20px;
 }
 
 .my-navbar img{
   width: 150px;
+  top: 50%;
 }
 
 .my-navbar .row ul>li {
   display: inline-block;
-  line-height: 80px;
   padding-right: 15px;
 }
 
