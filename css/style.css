@@ -123,10 +123,43 @@ margin-top: 15px;
 }
   /* end form*/
 
+.my-customer{
+  background-color: #F1F3F8;
+  text-align: center;
+  padding: 50px 0 30px;;
+}
+
+.my-customer h4{
+  color: #646F8A;
+}
+.customers{
+  padding: 30px 0;
+}
+
+.customers img{
+  width:  150px;
+  padding-right: 15px;
+}
+
+.customers img:last-child{
+  padding-right: 0;
+}
+
+
   @media screen and (max-width:767px){
 
     .content-jumbotron-left h1{
       font-size: 40px;
+    }
+
+    .customers img{
+      width:  300px;
+    }
+  }
+
+  @media screen and (max-width:991px){
+    .customers img{
+      width:  100px;
     }
 
   }
