@@ -203,7 +203,7 @@ margin-top: 15px;
 
 }
 
-.container-droplets .fa-angle-left, .fa-angle-right{
+.container-droplets .fa-angle-left, .container-droplets .fa-angle-right{
   font-size: 50px;
   font-weight: bold;
 }
@@ -227,9 +227,6 @@ margin-top: 15px;
 .fa-circle{
   display: none;
 }
-.fa-circle-thin:hover{
-  content
-}
 /* end designed*/
 
 /* features*/
@@ -241,32 +238,96 @@ margin-top: 15px;
 }
 /* end features*/
 
+
+/* service-region*/
 .my-service-region{
   background-image: linear-gradient(#0439B6, #01148A);
   color: white;
+  padding-bottom:50px;
 }
-
-.my-service-region .my-country-row{
+.my-service-region ul{
   border-bottom: 1px solid white;
-  padding-top:15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.list-container{
-  padding-right: 30px;
+.my-service-region ul li{
+  display: inline;
 }
 
+.my-service-region ul li:first-child{
+  width: 50px;
+}
+
+.my-service-region ul li:nth-child(2){
+  margin-left:30px;
+
+}
+
+.my-service-region ul li:nth-child(3){
+  float: right;
+  margin-right: 30px;
+}
+.my-service-region ul li a{
+  color: #15D6CA;
+}
+/* end service-region*/
+
+
+
+ /*  my development */
+.my-development{
+  background-color: #F1F3F8;
+}
+
+.my-development .container{
+  text-align: center;
+}
+.container-rockerbox{
+  background-color:white;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 50px 15px;
+  max-width: 800px;
+  min-height: 300px;
+  margin: 0 30px 30px;;
+}
+
+.container-rockerbox img{
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.container-rockerbox p{
+  font-size: 30px;
+}
+.my-development .fa-angle-left, .my-development .fa-angle-right{
+  font-size: 50px;
+  font-weight: bold;}
+ /*  end development */
 
 
 /* MEDIA QUERY*/
 
-@media screen and (max-width:991px){
+@media screen  and (max-width:991px){
   .customers img{
     width:  100px;
   }
   .container-droplets img{
     width: 600px;
   }
+
+  .my-service-region ul{
+    font-size: 10px;
+  }
+
+  .container-rockerbox{
+    max-width: 500px;
+  }
+
 }
 
 @media screen and (max-width:767px){
