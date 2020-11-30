@@ -359,7 +359,67 @@ footer .row div:nth-child(2) a{
  /*  end footer */
 
 
+/* shark*/
+.fixed-shark{
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+}
 
+.shark-message{
+  vertical-align: middle;
+	position: relative;
+	background: #FFFFFF;
+	border-radius: .4em;
+  height: 60px;
+  width: 300px;
+  padding:5px;
+  display: inline-block;
+}
+
+.shark-message:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 70%;
+	width: 0px;
+	height: 0px;
+	border: 10px solid transparent;
+	border-left-color: #FFF;
+	border-right: 0;
+	margin-top: -10px;
+	margin-right: -9px;
+}
+
+.shark-icon{
+  margin-left: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-image: url(../img/shark.png);
+  background-color: #0859F6;
+  background-size: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.shark-allarm{
+  color: white;
+  text-align: center;
+  background: red;
+  border: 2px solid white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(200%, -50%);
+}
+.shark-allarm span{
+  vertical-align: middle;
+}
 
 /* MEDIA QUERY*/
 
