@@ -1,4 +1,15 @@
 /* utility class*/
+.bg-gradient{
+  background-image: linear-gradient(#0439B6, #01148A);
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.text-white{
+  color: white;
+}
 
 .description-color{
   color: #455576;
@@ -24,19 +35,37 @@ font-size: 40px;
   padding-bottom: 50px;
 }
 
+.marg-top-15{
+  margin-top: 15px;
+}
+
+.marg-bot-15{
+  margin-bottom: 15px;
+}
+
+.pad-rig-15{
+  padding-right: 15px;
+}
+
+.pad-lef-15{
+ padding-left: 15px;
+}
+
+.font-20{
+  font-size: 20px;
+}
+/* end utility class*/
+
+
 /* Navar*/
 .my-navbar {
-  background-color: white;
   height: 58px;
   line-height: 58px;
-  text-align: right;
 }
 
 .hamburger-menu{
   color: #2177F4;
   float: right;
-  padding-right: 15px;
-  font-size: 20px;
 }
 
 .my-navbar img{
@@ -46,28 +75,26 @@ font-size: 40px;
 
 .my-navbar .row ul>li {
   display: inline-block;
-  padding-right: 15px;
 }
 
 .my-navbar .row ul>li>a {
   color: black;
 }
 
-.my-navbar .row .my-navbar-left li:last-child{
-  padding-right: 0px;
-}
+
 .my-navbar .navbar-brand:hover, .my-navbar .navbar-nav> a:hover {
   color: #1ABC9C;
 }
 
 .my-navbar .my-navbar-right > .sign-up{
-  background-color: white;
   border: 1px solid #2177F4;
   padding:10px;
   border-radius: 5px;
   color: #2177F4;
 }
 /* end navbar*/
+
+
 
 /* jumbotron*/
 .my-jumbotron{
@@ -77,11 +104,9 @@ font-size: 40px;
 
 .content-jumbotron-left{
   margin-top: 50px;
-  padding-left: 15px;
 }
 
 .content-jumbotron-left h1{
-  color: white;
   font-size: 60px;
 }
 
@@ -91,10 +116,7 @@ font-size: 40px;
 }
 
 .content-jumbotron-right{
-  background-color: white;
   border-radius: 5px;
-  margin-top: 15px;
-  text-align: center;
   min-height: 350px;
   padding: 40px 15px 30px;
 }
@@ -121,14 +143,12 @@ font-size: 40px;
 .form-google button:nth-child(3){
   background-color: #4E8DF8;
   width: 100%;
-  color: white;
   border-radius: 5px;
   height: 30px;
   border-style: none;
 }
 
 .form-google button:nth-child(4){
-  background-color: white;
   width: 100%;
   color: #575757;
   border-radius: 5px;
@@ -136,14 +156,9 @@ font-size: 40px;
   border-style: none;
   vertical-align: middle;
   box-shadow: 1px 1px #ccc;
-  text-align: center;
-  margin-top: 15px;
   position: relative;
 }
 
-.form-google div:nth-child(5){
-margin-top: 15px;
-}
 
 .form-google button > img{
   width: 20px;
@@ -157,8 +172,7 @@ margin-top: 15px;
   /*   customer  */
 .my-customer{
   background-color: #F1F3F8;
-  text-align: center;
-  padding: 50px 0 30px;;
+  padding: 50px 0 30px;
 }
 
 .my-customer h4{
@@ -170,38 +184,18 @@ margin-top: 15px;
 
 .customers img{
   width:  150px;
-  padding-right: 15px;
-
-}
-
-.customers img:last-child{
-  padding-right: 0;
 }
 /* end customer*/
 
 
 /* deploy*/
-/*
-.my-deploy{
-  padding-bottom: 50px;
-}*/
-
 
 .deploy-sidebar{
   font-size: 25px;
   border-left: 1px solid #455576;
-  padding-left: 15px;
   margin-left: 50px;
 }
 
-.deploy-sidebar div{
-  padding-top: 15px;
-}
-
-.deploy-container{
-  padding-right: 15px;
-  margin-bottom: 30px;
-}
 /* end deploy*/
 
 
@@ -211,9 +205,7 @@ margin-top: 15px;
 }
 
 .container-droplets{
-  text-align: center;
   vertical-align: middle;
-
 }
 
 .container-droplets .fa-angle-left, .container-droplets .fa-angle-right{
@@ -230,16 +222,9 @@ margin-top: 15px;
   width: 800px;
 }
 
-.image-title{
-  margin: 15px 0 30px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 .check-circle{
   font-size: 15px;
   color: #2177F4;
-  margin-bottom: 50px;
 }
 
 .fa-circle-thin:hover:before{
@@ -248,31 +233,11 @@ margin-top: 15px;
 /* end designed*/
 
 
-
-/* features*/
-.my-features{
-  padding-bottom: 50px;
-}
-.features-box-link{
-  margin-top: 20px;
-}
-/* end features*/
-
-
-
-
-
-
 /* service-region*/
-.my-service-region{
-  background-image: linear-gradient(#0439B6, #01148A);
-  color: white;
-  padding-bottom:50px;
-}
+
 .my-service-region ul{
   border-bottom: 1px solid white;
   padding-bottom: 10px;
-  margin-bottom: 15px;
 }
 
 .my-service-region ul li{
@@ -304,12 +269,8 @@ margin-top: 15px;
   background-color: #F1F3F8;
 }
 
-.my-development .container{
-  text-align: center;
-}
+
 .container-rockerbox{
-  background-color:white;
-  text-align: center;
   line-height: 40px;
   margin: 0 auto;
   display: inline-block;
@@ -334,22 +295,13 @@ margin-top: 15px;
  /*  end development */
 
  /*  Get Started */
- .my-getstarted{
-   background-image: linear-gradient(#0439B6, #01148A);
-   text-align: center
- }
-
  .getstarted-title{
   padding: 50px 0;
   line-height: 100px;
 }
 
-.getstarted-title h2{
-  color: white;
-}
 
 .getstarted-title a{
-  background-color: white;
   padding: 10px;
   border-radius: 5px;
   color:#0859F6;
@@ -362,19 +314,12 @@ footer{
   color:#6F7991;
   padding:50px;
 }
-footer img{
-margin-bottom: 15px;
-}
+
 footer .fa{
   font-size: 30px;
 }
 footer .social-icon{
-  margin-top: 15px;
   letter-spacing: 5px;
-}
-footer h5{
-  color: white;
-  margin-bottom: 15px;
 }
 
 footer .row div:nth-child(2) a{
@@ -393,7 +338,6 @@ footer .row div:nth-child(2) a{
 .shark-message{
   vertical-align: middle;
 	position: relative;
-	background: #FFFFFF;
 	border-radius: .4em;
   height: 60px;
   width: 300px;
@@ -431,8 +375,6 @@ footer .row div:nth-child(2) a{
 }
 
 .shark-allarm{
-  color: white;
-  text-align: center;
   background: red;
   border: 2px solid white;
   width: 25px;
@@ -441,8 +383,6 @@ footer .row div:nth-child(2) a{
   position: absolute;
   transform: translate(200%, -50%);
 }
-
-
 
 .fixed-shark:hover .shark-message {
   display: inline-block;
@@ -497,6 +437,5 @@ footer .row div:nth-child(2) a{
   .container-droplets img{
     width: 90%;
   }
-
 
 }
