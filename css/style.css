@@ -20,6 +20,10 @@ font-size: 40px;
    font-size: 30px;
 }
 
+.pad-bot-50{
+  padding-bottom: 50px;
+}
+
 /* Navar*/
 .my-navbar {
   background-color: white;
@@ -98,8 +102,9 @@ font-size: 40px;
 .content-jumbotron-right h2:nth-child(2){
   color:  #4E8DF8;
 }
-/* form*/
 
+
+/* form*/
 .form-google input{
   display: block;
   width: 100%;
@@ -133,6 +138,7 @@ font-size: 40px;
   box-shadow: 1px 1px #ccc;
   text-align: center;
   margin-top: 15px;
+  position: relative;
 }
 
 .form-google div:nth-child(5){
@@ -142,6 +148,8 @@ margin-top: 15px;
 .form-google button > img{
   width: 20px;
   vertical-align: middle;
+  position: absolute;
+  left: 5px;
 }
   /* end form*/
 
@@ -163,6 +171,7 @@ margin-top: 15px;
 .customers img{
   width:  150px;
   padding-right: 15px;
+
 }
 
 .customers img:last-child{
@@ -172,9 +181,12 @@ margin-top: 15px;
 
 
 /* deploy*/
+/*
 .my-deploy{
   padding-bottom: 50px;
-}
+}*/
+
+
 .deploy-sidebar{
   font-size: 25px;
   border-left: 1px solid #455576;
@@ -188,6 +200,7 @@ margin-top: 15px;
 
 .deploy-container{
   padding-right: 15px;
+  margin-bottom: 30px;
 }
 /* end deploy*/
 
@@ -208,6 +221,10 @@ margin-top: 15px;
   font-weight: bold;
 }
 
+.fa-angle-left:hover, .fa-angle-right:hover{
+  opacity: 0.5;
+}
+
 .container-droplets img{
   padding:0 30px;
   width: 800px;
@@ -224,10 +241,13 @@ margin-top: 15px;
   color: #2177F4;
   margin-bottom: 50px;
 }
-.fa-circle{
-  display: none;
+
+.fa-circle-thin:hover:before{
+  content: "\f111";
 }
 /* end designed*/
+
+
 
 /* features*/
 .my-features{
@@ -237,6 +257,10 @@ margin-top: 15px;
   margin-top: 20px;
 }
 /* end features*/
+
+
+
+
 
 
 /* service-region*/
@@ -363,7 +387,7 @@ footer .row div:nth-child(2) a{
 .fixed-shark{
   position: fixed;
   bottom: 50px;
-  right: 100px;
+  right: 50px;
 }
 
 .shark-message{
@@ -374,7 +398,7 @@ footer .row div:nth-child(2) a{
   height: 60px;
   width: 300px;
   padding:5px;
-  display: inline-block;
+  display: none;
 }
 
 .shark-message:after {
@@ -417,9 +441,14 @@ footer .row div:nth-child(2) a{
   position: absolute;
   transform: translate(200%, -50%);
 }
-.shark-allarm span{
-  vertical-align: middle;
+
+
+
+.fixed-shark:hover .shark-message {
+  display: inline-block;
 }
+/* end shark*/
+
 
 /* MEDIA QUERY*/
 
